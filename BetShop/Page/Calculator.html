@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BestShop</title>
+    <script src="./js/Calculator.js"></script>
+    <link rel="stylesheet" href="./style/Calculator.css"/>
+  </head>
+  <body>
+      <main>
+        <div class="calculator_window">
+          <h2 class="font_raleway">Calculate how much you’ll pay</h2>
+          <div class="calculator_container">
+            <section class="input_section column">
+              <input class="product_quantity inputs" type="text" placeholder="Products quantity">
+              <input class="order_quantity inputs" type="text" placeholder="Estimated orders in month">
+              <p class="package_list_value">Choose package</p>
+              <ul class="package_list open">
+                <li class="basic">Basic</li>
+                <li class="professional">Professional</li>
+                <li class="premium">Premium</li>
+              </ul>
+              <div class="div_checkbox">
+                <input class="accounting checkbox" type="checkbox">
+                <small>Accounting</small>
+              </div>
+              <div class="div_checkbox">
+                <input class="terminal_payment checkbox" type="checkbox">
+                <small>Rental of a payment terminal</small>
+              </div>
+            </section>
+            <section class="add_up_section column">
+                <div class="add_up">
+                  <p>Products</p>
+                  <div>
+                    <p class="product_amount">0</p>
+                    <p>&nbsp;* $0.5</p>
+                  </div>
+                  <p class="product_price sum">$0</p>
+                </div>
+                <div class="add_up">
+                  <p>Orders</p>
+                  <div class="div_orders">
+                    <p class="order_amount">0</p>
+                    <p>&nbsp;* $0.25</p>
+                  </div>
+                  <p class="order_price sum">$0</p>
+                </div>
+                <div class="add_up">
+                  <p>Package</p>
+                  <p class="package_type"></p>
+                  <p class="package_price sum">$0</p>
+                </div>
+                <div class="add_up">
+                  <p>Accounting</p>
+                  <p class="accounting_price sum">$0</p>
+                </div>
+                <div class="add_up">
+                  <p>Terminal</p>
+                  <p class="terminal_price sum">$0</p>
+                </div>
+                <button><small>Total</small><p class="total_price">$0</p></button>
+            </section>
+          </div>
+        </div>
+      </main>
+  </body>
+</html>

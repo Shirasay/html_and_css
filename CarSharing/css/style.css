@@ -273,11 +273,12 @@ div.div_footer{
 }
 small{
     display: flex;
-    justify-self: flex-end;
+    align-self: flex-end;
     color:darkgray;
 }
 img.img_footer{
     width: 149px;
+    height: 30px;
     margin: 0;
     padding-bottom: 20px;
 }
